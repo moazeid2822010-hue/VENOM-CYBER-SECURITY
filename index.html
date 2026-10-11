@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050b10">
+  <meta name="description" content="VENOM CYBER SECURITY — تعلم الأمن السيبراني، حماية الحسابات، والتوعية بالتهديدات الرقمية.">
+  <title>VENOM | Cyber Security</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="VENOM home">
+      <span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 3 42 11v12c0 11-7.5 18-18 22C13.5 41 6 34 6 23V11L24 3Z"/><path d="M18 22v-4a6 6 0 0 1 12 0v4M16 22h16v13H16z"/><path d="M24 27v3"/></svg></span>
+      <span class="brand-name">VENOM<span>SEC</span><small>CYBER SECURITY</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" data-i18n="navHome">الرئيسية</a>
+      <a href="#services" data-i18n="navServices">الخدمات</a>
+      <a href="#tools" data-i18n="navTools">الأدوات</a>
+      <a href="#learn" data-i18n="navLearn">التعلّم</a>
+      <a href="#about" data-i18n="navAbout">عن المشروع</a>
+    </nav>
+    <div class="header-actions">
+      <button class="language-switch" id="languageSwitch" type="button">EN</button>
+      <a class="button button-small button-outline" href="#tools" data-i18n="navExplore">ابدأ الاستكشاف</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse-dot"></span><span data-i18n="heroEyebrow">منطقة الوعي بالأمن السيبراني</span></div>
+        <h1 data-i18n="heroTitle">احمِ عالمك<br><span>الرقمي مع VENOM</span></h1>
+        <p class="hero-description" data-i18n="heroDescription">تعلّم كيف تكتشف التهديدات الرقمية، وتحمي حساباتك، وتتخذ قرارات أكثر أمانًا على الإنترنت.</p>
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#tools" data-i18n="heroPrimary">استكشف الأدوات <span>↙</span></a>
+          <a class="button button-outline" href="#learn" data-i18n="heroSecondary">ابدأ التعلّم</a>
+          <button class="sound-button" id="welcomeButton" type="button" aria-label="Play welcome message"><span>♫</span><span data-i18n="welcome">اسمع الترحيب</span></button>
+        </div>
+        <div class="hero-status"><span class="status-chip"><i></i> SYSTEM STATUS: <b data-i18n="statusProtected">وعي وحماية</b></span><span class="status-note" data-i18n="heroNote">المعرفة خط الدفاع الأول.</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract cybersecurity shield illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="visual-code code-a">01001010<br>10110101<br>00101110<br>11001001</div>
+        <div class="visual-code code-b">SECURE / VERIFY<br>ENCRYPTION: READY<br>THREAT AWARENESS: ON</div>
+        <div class="radar"><span></span><span></span><span></span></div>
+        <div class="shield-core">
+          <svg viewBox="0 0 180 205" role="img" aria-label="Shield and lock"><path class="shield-shape" d="M90 8 160 37v48c0 49-27 86-70 111C47 171 20 134 20 85V37L90 8Z"/><rect class="lock-body" x="62" y="88" width="56" height="47" rx="7"/><path class="lock-arc" d="M73 88V71a17 17 0 0 1 34 0v17"/><circle class="lock-hole" cx="90" cy="109" r="5"/><path class="lock-hole" d="M90 113v9"/></svg>
+          <span class="shield-label">VENOM / SECURE</span>
+        </div>
+        <div class="visual-tag tag-left"><span class="tag-icon">⌁</span><div><b>THREAT RADAR</b><small>Awareness mode active</small></div></div>
+        <div class="visual-tag tag-right"><span class="tag-icon">✓</span><div><b>DEFENSE LAYER</b><small>Learn. Detect. Protect.</small></div></div>
+        <div class="visual-caption">CYBERSPACE // PROTECT YOUR DIGITAL LIFE</div>
+      </div>
+    </section>
+
+    <section class="metrics section-wrap" aria-label="Project highlights">
+      <div class="metric"><span class="metric-icon">⌘</span><div><strong>01</strong><span data-i18n="metricOne">تعلّم الأساسيات</span></div></div>
+      <div class="metric"><span class="metric-icon">◇</span><div><strong>02</strong><span data-i18n="metricTwo">اكتشف العلامات</span></div></div>
+      <div class="metric"><span class="metric-icon">⌁</span><div><strong>03</strong><span data-i18n="metricThree">احمِ بياناتك</span></div></div>
+      <div class="metric"><span class="metric-icon">↗</span><div><strong>24/7</strong><span data-i18n="metricFour">وعي رقمي مستمر</span></div></div>
+    </section>
+
+    <section class="content-section section-wrap" id="services">
+      <div class="section-heading"><div><div class="eyebrow">01 // WHAT WE DO</div><h2 data-i18n="servicesTitle">دفاعك الرقمي يبدأ هنا</h2></div><p data-i18n="servicesSubtitle">مفاهيم عملية تساعدك على الاستخدام الآمن والمسؤول للتقنية.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="card-icon">⌑</div><div class="card-index">MODULE_01</div><h3 data-i18n="serviceOneTitle">حماية الحسابات</h3><p data-i18n="serviceOneText">استخدم كلمات مرور قوية وفريدة، وفعّل المصادقة متعددة العوامل.</p><a href="#learn" data-i18n="learnMore">اعرف المزيد ↙</a></article>
+        <article class="service-card"><div class="card-icon">◎</div><div class="card-index">MODULE_02</div><h3 data-i18n="serviceTwoTitle">الوعي بالتصيّد</h3><p data-i18n="serviceTwoText">تعلّم تمييز الرسائل والروابط التي تحاول خداعك لسرقة معلوماتك.</p><a href="#learn" data-i18n="learnMore">اعرف المزيد ↙</a></article>
+        <article class="service-card"><div class="card-icon">⌁</div><div class="card-index">MODULE_03</div><h3 data-i18n="serviceThreeTitle">أمان الشبكات</h3><p data-i18n="serviceThreeText">افهم أساسيات الشبكات والتحديثات والتشفير وحماية أجهزتك.</p><a href="#learn" data-i18n="learnMore">اعرف المزيد ↙</a></article>
+        <article class="service-card"><div class="card-icon">⛨</div><div class="card-index">MODULE_04</div><h3 data-i18n="serviceFourTitle">اختبار أمني مسؤول</h3><p data-i18n="serviceFourText">تعرّف على الاختبار المصرّح به داخل مختبرات تدريبية آمنة فقط.</p><a href="#tools" data-i18n="learnMore">اعرف المزيد ↙</a></article>
+      </div>
+    </section>
+
+    <section class="tools-section section-wrap" id="tools">
+      <div class="section-heading"><div><div class="eyebrow">02 // SAFE TOOLKIT</div><h2 data-i18n="toolsTitle">صندوق الأدوات الذكي</h2></div><p data-i18n="toolsSubtitle">أدوات توعوية تعمل داخل متصفحك؛ لا تنفّذ فحصًا هجوميًا ولا ترسل بياناتك إلى خادم.</p></div>
+      <div class="tools-grid">
+        <article class="tool-panel">
+          <div class="tool-top"><span class="tool-icon">↗</span><span class="tool-label">TOOL / 01</span></div>
+          <h3 data-i18n="linkToolTitle">مراجعة رابط</h3><p data-i18n="linkToolText">افحص شكل الرابط بحثًا عن مؤشرات مريبة، دون فتحه.</p>
+          <label for="urlInput" data-i18n="urlLabel">ألصق الرابط هنا</label>
+          <div class="input-row"><input id="urlInput" type="text" placeholder="https://example.com" autocomplete="off" dir="ltr"><button id="checkUrl" class="button button-primary" type="button" data-i18n="analyze">حلّل</button></div>
+          <div id="urlResult" class="tool-result" aria-live="polite" data-i18n="urlHint">النتيجة تظهر هنا. لا تفتح أي رابط مشبوه.</div>
+          <p class="fine-print" data-i18n="urlDisclaimer">هذه مراجعة أولية وليست ضمانًا لسلامة الموقع.</p>
+        </article>
+        <article class="tool-panel">
+          <div class="tool-top"><span class="tool-icon">▦</span><span class="tool-label">TOOL / 02</span></div>
+          <h3 data-i18n="passwordToolTitle">قائمة فحص كلمة المرور</h3><p data-i18n="passwordToolText">قيّم خصائص كلمة مرورك محليًا. لا تكتب كلمة مرور حقيقية تستخدمها.</p>
+          <label for="passwordInput" data-i18n="passwordLabel">كلمة تجريبية فقط</label>
+          <div class="input-row"><input id="passwordInput" type="password" placeholder="Try a sample password" autocomplete="off" dir="ltr"><button id="checkPassword" class="button button-primary" type="button" data-i18n="check">افحص</button></div>
+          <div id="passwordResult" class="tool-result" aria-live="polite" data-i18n="passwordHint">لن يتم حفظ النص أو إرساله.</div>
+          <p class="fine-print" data-i18n="passwordDisclaimer">استخدم مدير كلمات مرور ومصادقة متعددة العوامل.</p>
+        </article>
+        <article class="tool-panel checklist-panel">
+          <div class="tool-top"><span class="tool-icon">✓</span><span class="tool-label">TOOL / 03</span></div>
+          <h3 data-i18n="checklistTitle">قائمة حماية سريعة</h3><p data-i18n="checklistText">علّم على الخطوات التي أنجزتها.</p>
+          <label class="check-item"><input type="checkbox"><span data-i18n="checkOne">فعّلت المصادقة متعددة العوامل</span></label>
+          <label class="check-item"><input type="checkbox"><span data-i18n="checkTwo">حدّثت النظام والتطبيقات</span></label>
+          <label class="check-item"><input type="checkbox"><span data-i18n="checkThree">أراجع المرسل والرابط قبل الضغط</span></label>
+          <label class="check-item"><input type="checkbox"><span data-i18n="checkFour">أحتفظ بنسخة احتياطية</span></label>
+          <div class="progress-track"><span id="checkProgress"></span></div><div id="progressText" class="progress-text">0 / 4</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="learn-section section-wrap" id="learn">
+      <div class="section-heading"><div><div class="eyebrow">03 // KNOWLEDGE BASE</div><h2 data-i18n="learnTitle">معرفة تحميك</h2></div><a class="text-link" href="#about" data-i18n="learnAll">عن المشروع ↙</a></div>
+      <div class="learn-grid">
+        <article class="learn-card"><span class="article-tag">GUIDE / 01</span><div class="article-art art-one"><span>01</span><div class="art-lock">▣</div></div><div class="article-content"><h3 data-i18n="articleOneTitle">كيف تتعرف على التصيّد؟</h3><p data-i18n="articleOneText">انتبه للاستعجال المصطنع، وعناوين المرسلين الغريبة، وطلبات كلمات المرور أو رموز التحقق.</p><button class="article-expand" data-article="one" data-i18n="readArticle">اقرأ النصائح ↙</button><div class="article-extra" id="article-one" hidden data-i18n="articleOneExtra">افتح الموقع من التطبيق أو اكتب عنوانه بنفسك بدل الضغط على رابط الرسالة. لا تشارك رموز التحقق مع أحد.</div></div></article>
+        <article class="learn-card"><span class="article-tag">GUIDE / 02</span><div class="article-art art-two"><span>02</span><div class="art-lock">⌘</div></div><div class="article-content"><h3 data-i18n="articleTwoTitle">أساسيات كلمات المرور</h3><p data-i18n="articleTwoText">أنشئ كلمة مرور طويلة وفريدة لكل حساب، وتجنّب المعلومات الشخصية الشائعة.</p><button class="article-expand" data-article="two" data-i18n="readArticle">اقرأ النصائح ↙</button><div class="article-extra" id="article-two" hidden data-i18n="articleTwoExtra">مدير كلمات المرور يساعدك على إنشاء كلمات مختلفة وتخزينها. فعّل المصادقة متعددة العوامل حيثما توفرت.</div></div></article>
+        <article class="learn-card"><span class="article-tag">GUIDE / 03</span><div class="article-art art-three"><span>03</span><div class="art-lock">◈</div></div><div class="article-content"><h3 data-i18n="articleThreeTitle">خصوصيتك على الإنترنت</h3><p data-i18n="articleThreeText">راجع أذونات التطبيقات، وقلّل البيانات التي تشاركها، وتحقق من إعدادات الخصوصية.</p><button class="article-expand" data-article="three" data-i18n="readArticle">اقرأ النصائح ↙</button><div class="article-extra" id="article-three" hidden data-i18n="articleThreeExtra">امنح التطبيقات أقل قدر لازم من الأذونات، واحذر من نشر معلومات تحدد موقعك أو روتينك اليومي.</div></div></article>
+      </div>
+    </section>
+
+    <section class="about-section section-wrap" id="about">
+      <div class="about-mark">V<span>.</span></div><div class="about-copy"><div class="eyebrow">04 // ABOUT VENOM</div><h2 data-i18n="aboutTitle">الأمن يبدأ بالوعي.</h2><p data-i18n="aboutText">VENOM CYBER SECURITY مشروع تعليمي تجريبي يهدف إلى تبسيط مفاهيم الأمن الرقمي. الأدوات الموجودة توعوية فقط، وليست بديلًا عن أدوات الحماية المتخصصة أو التقييم الأمني الاحترافي.</p></div><a href="#home" class="button button-outline" data-i18n="backTop">العودة للأعلى ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap"><a class="footer-brand" href="#home">VENOM<span>SEC</span></a><p data-i18n="footerText">مشروع تعليمي للأمن السيبراني • استخدم المعرفة بمسؤولية.</p><span>© <span id="year"></span> VENOM CYBER SECURITY</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
